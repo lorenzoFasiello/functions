@@ -55,7 +55,7 @@ void printArray(Array *a){ //stampa l'array
 }
 
 int main(){
-Array list = readAndSetArrayFromFile(fp);
+Array list = readAndSetArrayFromFile(fp); //wiew on the file readAndSetArrayFromFile
 printArray(&list);
 return 0;
 }
