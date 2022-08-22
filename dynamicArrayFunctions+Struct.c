@@ -32,7 +32,7 @@ void freeArray(Array *a){ //libera l'array
 
 void removeElementByIndex(Array *a, int index){ //rimuove elementi dall'array (index)
     Array temp_array;
-    initArray(&temp_array, 1);
+    initArray(&temp_array, 0);
 
     for (int i=0; i<a->size; i++) // scorro l'array a
     {
